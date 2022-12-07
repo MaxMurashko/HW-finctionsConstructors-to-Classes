@@ -18,24 +18,24 @@ class Auto {
 
 class AutoFuel extends Auto {
     constructor(mark, model, year, vin, engineVolume, gasPerMile) {
-    super(mark, model, year, vin);
-    this.mark = mark;
-    this.model = model;
-    this.year = year;
-    this.vin = vin;
-    this.engineVolume = engineVolume;
-    this.gasPerMile = gasPerMile;
+        super(mark, model, year, vin);
+        this.mark = mark;
+        this.model = model;
+        this.year = year;
+        this.vin = vin;
+        this.engineVolume = engineVolume;
+        this.gasPerMile = gasPerMile;
     }
 
     showFuelConsumption() {
-        return `${this.engineVolume} ${this.gasPerMile}` 
+        return `${this.engineVolume} ${this.gasPerMile}`; 
     }
 }
 
 
 class AutoElectric extends Auto{
     constructor(mark, model, year, vin, batteryVolume) {
-    super(mark, model, year, vin);   
+        super(mark, model, year, vin);   
         this.mark = mark;
         this.model = model;
         this.year = year;
